@@ -21,7 +21,8 @@ Verify with `/plugin` (shows installed plugins) and `/help` (lists the commands)
 
 | Skill | What it does |
 | --- | --- |
-| `pr-review-triage` | Reads a saved `pr-<no>.md` review file, verifies each comment against the current code, and buckets them into LEGITIMATE / IGNORABLE / DOES-NOT-APPLY. |
+| `pr-review-triage` | Takes a PR link or a review file path, verifies each comment against the current code, and buckets them into LEGITIMATE / IGNORABLE / DOES-NOT-APPLY. |
+| `new-nextjs-app` | Scaffolds a Next.js project with `create-next-app` after checking prerequisites (macOS/Linux), offering to install what's missing, and copying this plugin's skills into the new project's `.claude/`. |
 
 ### Commands (`commands/`)
 
@@ -57,5 +58,8 @@ agents/<name>.md
   `description`, `argument-hint`, `model`, `allowed-tools`. Use `$ARGUMENTS` in the body.
 - **Hook** — add an entry to `hooks/hooks.json`; reference scripts with `${CLAUDE_PLUGIN_ROOT}`.
 - **Agent** — `agents/<name>.md` with frontmatter `name`, `description`, `tools`.
+
+Skills may ship helper scripts under `skills/<name>/scripts/`; reference them with
+`${CLAUDE_PLUGIN_ROOT}`.
 
 Bump `version` in `.claude-plugin/plugin.json` on each change.
