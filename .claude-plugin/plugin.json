@@ -1,0 +1,10 @@
+{
+  "name": "claude-skills-nv",
+  "version": "0.1.0",
+  "description": "Personal collection of Claude Code skills, slash commands, hooks and agents.",
+  "author": {
+    "name": "Neeraj",
+    "email": "reach_claude@bigsteptech.com"
+  },
+  "keywords": ["skills", "commands", "hooks", "workflow"]
+}
