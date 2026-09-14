@@ -3,7 +3,7 @@
   "description": "Neeraj's personal Claude Code plugins: skills, slash commands, hooks and agents.",
   "owner": {
     "name": "Neeraj",
-    "email": "reach_claude@bigsteptech.com"
+    "email": "neeraj.verma@bigsteptech.com"
   },
   "plugins": [
     {

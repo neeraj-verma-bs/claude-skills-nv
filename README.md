@@ -22,6 +22,7 @@ Verify with `/plugin` (shows installed plugins) and `/help` (lists the commands)
 | Skill | What it does |
 | --- | --- |
 | `pr-review-triage` | Takes a PR link or a review file path, verifies each comment against the current code, and buckets them into LEGITIMATE / IGNORABLE / DOES-NOT-APPLY. |
+| `creative-ui-art-director` | Turns a UI request into an art-direction process: 3–5 divergent design territories, a recommended direction, design system and motion language, then code. |
 | `new-nextjs-app` | Scaffolds a Next.js project with `create-next-app` after checking prerequisites (macOS/Linux), offering to install what's missing, and copying this plugin's skills into the new project's `.claude/`. |
 
 ### Commands (`commands/`)
